@@ -1,0 +1,63 @@
+/*ModifyEncKey*/
+
+mflr %r12
+std  %r12, -8(%r1)
+std  %r31, -0x10(%r1)
+std  %r30, -0x18(%r1)
+std  %r29, -0x20(%r1)
+std  %r28, -0x28(%r1)
+std  %r27, -0x30(%r1)
+std  %r26, -0x38(%r1)
+std  %r25, -0x40(%r1)
+std  %r24, -0x48(%r1)
+std  %r23, -0x50(%r1)
+std  %r22, -0x58(%r1)
+stdu %r1, -0xF0(%r1)
+
+clrldi %r31, %r4, 32
+li %r4, 0x2828
+mtctr %r4
+mr %r3, %r31
+li %r4, 0x24
+bctrl
+mr %r30, %r3
+lwz %r3, 0x0(%r30)
+cmpwi %cr6, %r3, 0
+beq %cr6, 0x28
+	ld %r3, 0xF0(%r0)
+	std %r3, 0x4(%r30)
+	ld %r3, 0xF8(%r0)
+	std %r3, 0xC(%r30)
+	ld %r3, 0x14(%r30)
+	std %r3, 0xF0(%r0)
+	ld %r3, 0x1C(%r30)
+	std %r3, 0xF8(%r0)
+	b 0x18
+
+	ld %r3, 0x4(%r30)
+	std %r3, 0xF0(%r0)
+	ld %r3, 0xC(%r30)
+	std %r3, 0xF8(%r0)
+	b 0x4
+
+li %r3, 0
+addi %r1, %r1, 0xF0
+ld %r12, -8(%r1)
+ld %r22, -0x58(%r1)
+ld %r23, -0x50(%r1)
+ld %r24, -0x48(%r1)
+ld %r25, -0x40(%r1)
+ld %r26, -0x38(%r1)
+ld %r27, -0x30(%r1)
+ld %r28, -0x28(%r1)
+ld %r29, -0x20(%r1)
+ld %r30, -0x18(%r1)
+ld %r31, -0x10(%r1)
+mtlr %r12
+blr
+
+struct ModifyEncKey {
+	int iWhat; // false = restore, true = back up and patch
+	BYTE szOriginalKey[0x10];	
+	BYTE szNewKey[0x10];	
+};

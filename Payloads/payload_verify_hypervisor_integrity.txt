@@ -1,0 +1,203 @@
+/*VerifyHypervisorIntegrity*/
+
+// Hash: 2F03AED11D9E0434B19FF8C5C3FCC46994E800A5
+
+// DEVKIT
+mflr %r12
+std  %r12, -8(%r1)
+std  %r31, -0x10(%r1)
+std  %r30, -0x18(%r1)
+std  %r29, -0x20(%r1)
+std  %r28, -0x28(%r1)
+std  %r27, -0x30(%r1)
+std  %r26, -0x38(%r1)
+std  %r25, -0x40(%r1)
+std  %r24, -0x48(%r1)
+std  %r23, -0x50(%r1)
+std  %r22, -0x58(%r1)
+stdu %r1, -0xF0(%r1)
+
+clrldi %r31, %r4, 32
+li %r4, 0x2828
+mtctr %r4
+mr %r3, %r31
+li %r4, 0x3C
+bctrl
+mr %r30, %r3
+
+lis %r3, 0x0000
+ori %r3, %r3, 0x0002
+sldi %r3, %r3, 32
+oris %r3, %r3, 0x0001
+ori %r3, %r3, 0x5FC0
+lwz %r3, 0x0(%r3)
+stw %r3, 0x0(%r30)
+
+lis %r3, 0x0
+ori %r3, %r3, 0x5ED0
+ld %r4, 0x0(%r3)
+std %r4, 0x4(%r30)
+ld %r4, 0x8(%r3)
+std %r4, 0xC(%r30)
+
+lis %r3, 0x0000
+ori %r3, %r3, 0x0002
+sldi %r3, %r3, 32
+oris %r3, %r3, 0x0001
+ori %r3, %r3, 0x6080
+lwz %r3, 0x0(%r3)
+stw %r3, 0x14(%r30)
+
+lis %r3, 0x0000
+ori %r3, %r3, 0x0006
+sldi %r3, %r3, 32
+oris %r3, %r3, 0x0003
+ori %r3, %r3, 0x0A98
+ld %r4, 0x0(%r3)
+std %r4, 0x18(%r30)
+ld %r4, 0x8(%r3)
+std %r4, 0x20(%r30)
+
+lis %r3, 0x0000
+ori %r3, %r3, 0x0002
+sldi %r3, %r3, 32
+oris %r3, %r3, 0x0001
+ori %r3, %r3, 0x6084
+lwz %r3, 0x0(%r3)
+stw %r3, 0x28(%r30)
+
+lis %r3, 0x0000
+ori %r3, %r3, 0x0006
+sldi %r3, %r3, 32
+oris %r3, %r3, 0x0003
+ori %r3, %r3, 0x0D08
+ld %r4, 0x0(%r3)
+std %r4, 0x2C(%r30)
+ld %r4, 0x8(%r3)
+std %r4, 0x34(%r30)
+
+li %r3, 0
+addi %r1, %r1, 0xF0
+ld %r12, -8(%r1)
+ld %r22, -0x58(%r1)
+ld %r23, -0x50(%r1)
+ld %r24, -0x48(%r1)
+ld %r25, -0x40(%r1)
+ld %r26, -0x38(%r1)
+ld %r27, -0x30(%r1)
+ld %r28, -0x28(%r1)
+ld %r29, -0x20(%r1)
+ld %r30, -0x18(%r1)
+ld %r31, -0x10(%r1)
+mtlr %r12
+blr
+
+// devkit
+struct HypervisorIntegrity {
+	BYTE szHvxKeysExecuteSyscall[4]; // 0x15FC0
+	BYTE szHvxKeysExecutePrologue[16]; // 0x5ED0
+	BYTE szHvxExpansionInstallSyscall[4]; // 0x16080
+	BYTE szHvxExpansionInstallPrologue[16]; // 0x30A98
+	BYTE szHvxExpansionCallSyscall[4]; // 0x16084
+	BYTE szHvxExpansionCallPrologue[16]; // 0x30D08
+};
+
+// RETAIL
+mflr %r12
+std  %r12, -8(%r1)
+std  %r31, -0x10(%r1)
+std  %r30, -0x18(%r1)
+std  %r29, -0x20(%r1)
+std  %r28, -0x28(%r1)
+std  %r27, -0x30(%r1)
+std  %r26, -0x38(%r1)
+std  %r25, -0x40(%r1)
+std  %r24, -0x48(%r1)
+std  %r23, -0x50(%r1)
+std  %r22, -0x58(%r1)
+stdu %r1, -0xF0(%r1)
+
+clrldi %r31, %r4, 32
+li %r4, 0x2828
+mtctr %r4
+mr %r3, %r31
+li %r4, 0x3C
+bctrl
+mr %r30, %r3
+
+lis %r3, 0x0000
+ori %r3, %r3, 0x0002
+sldi %r3, %r3, 32
+oris %r3, %r3, 0x0001
+ori %r3, %r3, 0x5F60
+lwz %r3, 0x0(%r3)
+stw %r3, 0x0(%r30)
+
+lis %r3, 0x0
+ori %r3, %r3, 0x5F68
+ld %r4, 0x0(%r3)
+std %r4, 0x4(%r30)
+ld %r4, 0x8(%r3)
+std %r4, 0xC(%r30)
+
+lis %r3, 0x0000
+ori %r3, %r3, 0x0002
+sldi %r3, %r3, 32
+oris %r3, %r3, 0x0001
+ori %r3, %r3, 0x6020
+lwz %r3, 0x0(%r3)
+stw %r3, 0x14(%r30)
+
+lis %r3, 0x0000
+ori %r3, %r3, 0x0006
+sldi %r3, %r3, 32
+oris %r3, %r3, 0x0003
+ori %r3, %r3, 0x0710
+ld %r4, 0x0(%r3)
+std %r4, 0x18(%r30)
+ld %r4, 0x8(%r3)
+std %r4, 0x20(%r30)
+
+lis %r3, 0x0000
+ori %r3, %r3, 0x0002
+sldi %r3, %r3, 32
+oris %r3, %r3, 0x0001
+ori %r3, %r3, 0x6024
+lwz %r3, 0x0(%r3)
+stw %r3, 0x28(%r30)
+
+lis %r3, 0x0000
+ori %r3, %r3, 0x0006
+sldi %r3, %r3, 32
+oris %r3, %r3, 0x0003
+ori %r3, %r3, 0x0970
+ld %r4, 0x0(%r3)
+std %r4, 0x2C(%r30)
+ld %r4, 0x8(%r3)
+std %r4, 0x34(%r30)
+
+li %r3, 0
+addi %r1, %r1, 0xF0
+ld %r12, -8(%r1)
+ld %r22, -0x58(%r1)
+ld %r23, -0x50(%r1)
+ld %r24, -0x48(%r1)
+ld %r25, -0x40(%r1)
+ld %r26, -0x38(%r1)
+ld %r27, -0x30(%r1)
+ld %r28, -0x28(%r1)
+ld %r29, -0x20(%r1)
+ld %r30, -0x18(%r1)
+ld %r31, -0x10(%r1)
+mtlr %r12
+blr
+
+// retail
+struct HypervisorIntegrity {
+	BYTE szHvxKeysExecuteSyscall[4]; // 0x15F60
+	BYTE szHvxKeysExecutePrologue[16]; // 0x5F68
+	BYTE szHvxExpansionInstallSyscall[4]; // 0x16020
+	BYTE szHvxExpansionInstallPrologue[16]; // 0x30710
+	BYTE szHvxExpansionCallSyscall[4]; // 0x16024
+	BYTE szHvxExpansionCallPrologue[16]; // 0x30970
+};
