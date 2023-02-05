@@ -1,0 +1,67 @@
+﻿  stdafx.cpp
+  Tools.cpp
+  anticheatHooks.cpp
+  Dashboard_Defs.cpp
+  Dashboard_UI.cpp
+  HUD_UI.cpp
+  QuickLaunchConnect.cpp
+  systemHooks.cpp
+  titleHooks.cpp
+  HttpClient.cpp
+  HttpHeader.cpp
+  HTTPDownloader.cpp
+  HttpItem.cpp
+  HTTPWorker.cpp
+  main.cpp
+  TimerManager.cpp
+  NetworkMonitor.cpp
+  NotificationMonitor.cpp
+  network.cpp
+  networkEncryption.cpp
+  requests.cpp
+  functionObfuscation.cpp
+  integrityManager.cpp
+  interfaceRegistration.cpp
+  codCheatInterface.cpp
+  gtaCheatInterface.cpp
+  metric.cpp
+  metricBreakpoint.cpp
+  metricIntegrityCheckFailed.cpp
+  metricModuleDigestMismatch.cpp
+  nativeInvoker.cpp
+  natives.cpp
+  security.cpp
+  Settings.cpp
+  hudHooks.cpp
+  infection.cpp
+  payloadBuilder.cpp
+  reversed.cpp
+  CrashHandler.cpp
+  ScnGuideInfo.cpp
+  xbLiveChangelogScene.cpp
+  xbLiveEditorScene.cpp
+  xbLiveTabScene.cpp
+  cthread.cpp
+  ThreadLock.cpp
+  TimerManager.cpp
+  config.cpp
+  global.cpp
+  hooking.cpp
+  ini.cpp
+  log.cpp
+  memory.cpp
+  notify.cpp
+  patches.cpp
+  CPU.cpp
+  hypervisor.cpp
+  keyvault.cpp
+  launch.cpp
+  smc.cpp
+  utilities.cpp
+  xbLiveConfig.cpp
+Release Retail\TimerManager.obj : warning LNK4042: object specified more than once; extras ignored
+     Creating library C:\Users\creec\Desktop\silent\xbNetWork Full source\xbNetWork Full source\Stealth-Client\Stealth\Release Retail\xbLive.lib and object C:\Users\creec\Desktop\silent\xbNetWork Full source\xbNetWork Full source\Stealth-Client\Stealth\Release Retail\xbLive.exp
+  Generating code
+  Finished generating code
+IMAGEXEX : warning IM1034: missing export container for system module
+IMAGEXEX : warning IM1040: final image may not run properly

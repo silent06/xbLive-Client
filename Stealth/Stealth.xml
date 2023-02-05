@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xex>
+  <baseaddr addr="0x90E00000"/>
+  <sysdll/>
+  <format>
+    <compressed/>
+  </format>
+  <mediatypes>
+    <default/>
+    <allpackages/>
+  </mediatypes>
+  <gameregion>
+    <all/>
+  </gameregion>
+  <section file="Images.xzp" name="xbLive" memory="RO"/>
+</xex>

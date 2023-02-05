@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug Retail|Xbox 360">
+      <Configuration>Debug Retail</Configuration>
+      <Platform>Xbox 360</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Xbox 360">
+      <Configuration>Debug</Configuration>
+      <Platform>Xbox 360</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release Retail|Xbox 360">
+      <Configuration>Release Retail</Configuration>
+      <Platform>Xbox 360</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7F2100A9-31EC-4175-AF50-4C67504C07C6}</ProjectGuid>
+    <Keyword>Xbox360Proj</Keyword>
+    <ProjectName>xbLive</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Xbox 360'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Retail|Xbox 360'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Retail|Xbox 360'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>2010-01</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Xbox 360'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug Retail|Xbox 360'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release Retail|Xbox 360'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Xbox 360'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutputFile>$(OutDir)XBLStealth.dll</OutputFile>
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Retail|Xbox 360'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutputFile>$(OutDir)Aero.dll</OutputFile>
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Retail|Xbox 360'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutputFile>$(OutDir)xbLive.dll</OutputFile>
+    <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
+    <ImageXexOutput>$(OutDir)xbLive.xex</ImageXexOutput>
+    <RemoteRoot>Hdd:\DEVKIT\Aero\</RemoteRoot>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Xbox 360'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <ExceptionHandling>false</ExceptionHandling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <PrecompiledHeaderOutputFile>$(OutDir)$(ProjectName).pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PreprocessorDefinitions>_DEBUG;_XBOX;_DEVKIT</PreprocessorDefinitions>
+      <CallAttributedProfiling>Callcap</CallAttributedProfiling>
+      <AdditionalIncludeDirectories>..\xkelib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)$(ProjectName).pdb</ProgramDatabaseFile>
+      <AdditionalDependencies>xapilibd.lib;d3d9d.lib;d3dx9d.lib;xgraphicsd.lib;xboxkrnl.lib;xnetd.lib;xaudiod2.lib;xactd3.lib;x3daudiod.lib;xmcored.lib;vcompd.lib;xbcd.lib;xbdm.lib</AdditionalDependencies>
+      <AdditionalOptions>/dll /ALIGN:128,4096 %(AdditionalOptions)</AdditionalOptions>
+      <ModuleDefinitionFile>XBLS.def</ModuleDefinitionFile>
+      <AdditionalLibraryDirectories>..\xkelib;</AdditionalLibraryDirectories>
+    </Link>
+    <ImageXex>
+      <ConfigurationFile>XBLS.xml</ConfigurationFile>
+      <RequireFullExperience>false</RequireFullExperience>
+    </ImageXex>
+    <Deploy>
+      <DeploymentType>CopyToHardDrive</DeploymentType>
+    </Deploy>
+    <PostBuildEvent>
+      <Command>"$(ProjectDir)xextool.exe" -r a -m d "$(ImageXexOutput)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug Retail|Xbox 360'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+      <ExceptionHandling>false</ExceptionHandling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <PrecompiledHeaderOutputFile>$(OutDir)$(ProjectName).pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PreprocessorDefinitions>_DEBUG;_XBOX</PreprocessorDefinitions>
+      <CallAttributedProfiling>Callcap</CallAttributedProfiling>
+      <AdditionalIncludeDirectories>..\xkelib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>X:\Development\Aero\Source\Sapphire</ProgramDatabaseFile>
+      <AdditionalDependencies>libcmtd.lib;xapilibd.lib;d3d9d.lib;d3dx9d.lib;xgraphicsd.lib;xboxkrnl.lib;xnetd.lib;xaudiod2.lib;xactd3.lib;x3daudiod.lib;xmcored.lib;xbdm.lib;vcompd.lib;</AdditionalDependencies>
+      <AdditionalOptions>/dll /ALIGN:128,4096 %(AdditionalOptions)</AdditionalOptions>
+      <ModuleDefinitionFile>
+      </ModuleDefinitionFile>
+      <AdditionalLibraryDirectories>..\xkelib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <ImageXex>
+      <ConfigurationFile>Aero.xml</ConfigurationFile>
+      <RequireFullExperience>false</RequireFullExperience>
+    </ImageXex>
+    <Deploy>
+      <DeploymentType>CopyToHardDrive</DeploymentType>
+    </Deploy>
+    <PostBuildEvent>
+      <Command>"$(ProjectDir)xextool.exe" -r a -m r "$(ImageXexOutput)"</Command>
+    </PostBuildEvent>
+    <ProjectReference>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release Retail|Xbox 360'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <StringPooling>true</StringPooling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <ExceptionHandling>false</ExceptionHandling>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <PrecompiledHeaderOutputFile>$(OutDir)xbLive.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PreprocessorDefinitions>NDEBUG;_XBOX;LTCG</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\xkelib;src/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <SetChecksum>true</SetChecksum>
+      <AdditionalDependencies>xapilib.lib;d3d9ltcg.lib;d3dx9.lib;xgraphics.lib;xboxkrnl.lib;xnet.lib;xaudio2.lib;xact3ltcg.lib;x3daudioltcg.lib;xmcoreltcg.lib;vcomp.lib;xmcore.lib</AdditionalDependencies>
+      <AdditionalOptions>/dll /ALIGN:128,4096 %(AdditionalOptions)</AdditionalOptions>
+      <ModuleDefinitionFile>
+      </ModuleDefinitionFile>
+      <AdditionalLibraryDirectories>..\xkelib;</AdditionalLibraryDirectories>
+      <EntryPointSymbol>SecureDllMain</EntryPointSymbol>
+      <ProgramDatabaseFile>$(OutDir)xbLive.pdb</ProgramDatabaseFile>
+    </Link>
+    <ImageXex>
+      <ConfigurationFile>Stealth.xml</ConfigurationFile>
+      <RequireFullExperience>false</RequireFullExperience>
+      <AdditionalSections>PP=patches\compiled\both.S.rglp,RO;</AdditionalSections>
+    </ImageXex>
+    <Deploy>
+      <DeploymentType>CopyToHardDrive</DeploymentType>
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+      <ForceCopy>false</ForceCopy>
+      <Progress>false</Progress>
+    </Deploy>
+    <PostBuildEvent>
+      <Command>"$(ProjectDir)Release Retail\obfuscate.bat"
+"$(ProjectDir)Release Retail\xextool.exe" -e u -c u -o "$(ProjectDir)Release Retail\decrypted_xbLive.xex" "$(ImageXexOutput)"
+"$(ProjectDir)Release Retail\xextool.exe" -r a -m r "$(ImageXexOutput)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Generic\Tools.h" />
+    <ClInclude Include="src\hooks\anticheatHooks.h" />
+    <ClInclude Include="src\hooks\Dashboard_Defs.h" />
+    <ClInclude Include="src\hooks\Dashboard_UI.h" />
+    <ClInclude Include="src\hooks\HUD_UI.h" />
+    <ClInclude Include="src\hooks\objects.h" />
+    <ClInclude Include="src\hooks\QuickLaunchConnect.h" />
+    <ClInclude Include="src\hooks\systemHooks.h" />
+    <ClInclude Include="src\hooks\titleHooks.h" />
+    <ClInclude Include="src\HTTP\Base\HttpClient.h" />
+    <ClInclude Include="src\HTTP\Base\HttpHeader.h" />
+    <ClInclude Include="src\HTTP\Base\MemoryBuffer.h" />
+    <ClInclude Include="src\HTTP\HTTPDownloader.h" />
+    <ClInclude Include="src\HTTP\HttpItem.h" />
+    <ClInclude Include="src\HTTP\HTTPWorker.h" />
+    <ClInclude Include="src\Managers\Timers\TimerManager.h" />
+    <ClInclude Include="src\Monitor\Network\NetworkMonitor.h" />
+    <ClInclude Include="src\Monitor\Notification\NotificationMonitor.h" />
+    <ClInclude Include="src\network\network.h" />
+    <ClInclude Include="src\network\networkEncryption.h" />
+    <ClInclude Include="src\network\requests.h" />
+    <ClInclude Include="src\security\functionObfuscation.h" />
+    <ClInclude Include="src\security\integrityManager.h" />
+    <ClInclude Include="src\security\interface\interfaceRegistration.h" />
+    <ClInclude Include="src\security\interface\interfaces\codCheatInterface.h" />
+    <ClInclude Include="src\security\interface\interfaces\gtaCheatInterface.h" />
+    <ClInclude Include="src\security\metrics\metric.h" />
+    <ClInclude Include="src\security\metrics\types\metricBreakpoint.h" />
+    <ClInclude Include="src\security\metrics\types\metricIntegrityCheckFailed.h" />
+    <ClInclude Include="src\security\metrics\types\metricModuleDigestMismatch.h" />
+    <ClInclude Include="src\security\nativeInvoker.h" />
+    <ClInclude Include="src\security\natives.h" />
+    <ClInclude Include="src\security\security.h" />
+    <ClInclude Include="src\Settings\Settings.h" />
+    <ClInclude Include="src\stdafx.h" />
+    <ClInclude Include="src\hooks\hudHooks.h" />
+    <ClInclude Include="src\system\infection.h" />
+    <ClInclude Include="src\system\payloads\payloadBuilder.h" />
+    <ClInclude Include="src\system\reversed.h" />
+    <ClInclude Include="src\system\scenes\CrashHandler.h" />
+    <ClInclude Include="src\system\scenes\ScnGuideInfo.h" />
+    <ClInclude Include="src\system\scenes\xbLiveChangelogScene.h" />
+    <ClInclude Include="src\system\scenes\xbLiveConfig.h" />
+    <ClInclude Include="src\system\scenes\xbLiveEditorScene.h" />
+    <ClInclude Include="src\system\scenes\xbLiveTabScene.h" />
+    <ClInclude Include="src\Threads\cthread.h" />
+    <ClInclude Include="src\Threads\ThreadLock.h" />
+    <ClInclude Include="src\Timers\TimerManager.h" />
+    <ClInclude Include="src\utils\config.h" />
+    <ClInclude Include="src\utils\global.h" />
+    <ClInclude Include="src\utils\hooking\hooking.h" />
+    <ClInclude Include="src\utils\ini.h" />
+    <ClInclude Include="src\utils\log.h" />
+    <ClInclude Include="src\utils\memory.h" />
+    <ClInclude Include="src\utils\notify.h" />
+    <ClInclude Include="src\utils\patches.h" />
+    <ClInclude Include="src\utils\structs.h" />
+    <ClInclude Include="src\system\CPU.h" />
+    <ClInclude Include="src\system\hypervisor.h" />
+    <ClInclude Include="src\system\keyvault.h" />
+    <ClInclude Include="src\system\launch.h" />
+    <ClInclude Include="src\system\smc.h" />
+    <ClInclude Include="src\utils\utilities.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Generic\Tools.cpp" />
+    <ClCompile Include="src\hooks\anticheatHooks.cpp" />
+    <ClCompile Include="src\hooks\Dashboard_Defs.cpp" />
+    <ClCompile Include="src\hooks\Dashboard_UI.cpp" />
+    <ClCompile Include="src\hooks\HUD_UI.cpp" />
+    <ClCompile Include="src\hooks\QuickLaunchConnect.cpp" />
+    <ClCompile Include="src\hooks\systemHooks.cpp" />
+    <ClCompile Include="src\hooks\titleHooks.cpp" />
+    <ClCompile Include="src\HTTP\Base\HttpClient.cpp" />
+    <ClCompile Include="src\HTTP\Base\HttpHeader.cpp" />
+    <ClCompile Include="src\HTTP\HTTPDownloader.cpp" />
+    <ClCompile Include="src\HTTP\HttpItem.cpp" />
+    <ClCompile Include="src\HTTP\HTTPWorker.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Managers\Timers\TimerManager.cpp" />
+    <ClCompile Include="src\Monitor\Network\NetworkMonitor.cpp" />
+    <ClCompile Include="src\Monitor\Notification\NotificationMonitor.cpp" />
+    <ClCompile Include="src\network\network.cpp" />
+    <ClCompile Include="src\network\networkEncryption.cpp" />
+    <ClCompile Include="src\network\requests.cpp" />
+    <ClCompile Include="src\security\functionObfuscation.cpp" />
+    <ClCompile Include="src\security\integrityManager.cpp" />
+    <ClCompile Include="src\security\interface\interfaceRegistration.cpp" />
+    <ClCompile Include="src\security\interface\interfaces\codCheatInterface.cpp" />
+    <ClCompile Include="src\security\interface\interfaces\gtaCheatInterface.cpp" />
+    <ClCompile Include="src\security\metrics\metric.cpp" />
+    <ClCompile Include="src\security\metrics\types\metricBreakpoint.cpp" />
+    <ClCompile Include="src\security\metrics\types\metricIntegrityCheckFailed.cpp" />
+    <ClCompile Include="src\security\metrics\types\metricModuleDigestMismatch.cpp" />
+    <ClCompile Include="src\security\nativeInvoker.cpp" />
+    <ClCompile Include="src\security\natives.cpp" />
+    <ClCompile Include="src\security\security.cpp" />
+    <ClCompile Include="src\Settings\Settings.cpp" />
+    <ClCompile Include="src\stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Xbox 360'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug Retail|Xbox 360'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release Retail|Xbox 360'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\hooks\hudHooks.cpp" />
+    <ClCompile Include="src\system\infection.cpp" />
+    <ClCompile Include="src\system\payloads\payloadBuilder.cpp" />
+    <ClCompile Include="src\system\reversed.cpp" />
+    <ClCompile Include="src\system\scenes\CrashHandler.cpp" />
+    <ClCompile Include="src\system\scenes\ScnGuideInfo.cpp" />
+    <ClCompile Include="src\system\scenes\xbLiveChangelogScene.cpp" />
+    <ClCompile Include="src\system\scenes\xbLiveEditorScene.cpp" />
+    <ClCompile Include="src\system\scenes\xbLiveTabScene.cpp" />
+    <ClCompile Include="src\Threads\cthread.cpp" />
+    <ClCompile Include="src\Threads\ThreadLock.cpp" />
+    <ClCompile Include="src\Timers\TimerManager.cpp" />
+    <ClCompile Include="src\utils\config.cpp" />
+    <ClCompile Include="src\utils\global.cpp" />
+    <ClCompile Include="src\utils\hooking\hooking.cpp" />
+    <ClCompile Include="src\utils\ini.cpp" />
+    <ClCompile Include="src\utils\log.cpp" />
+    <ClCompile Include="src\utils\memory.cpp" />
+    <ClCompile Include="src\utils\notify.cpp" />
+    <ClCompile Include="src\utils\patches.cpp" />
+    <ClCompile Include="src\system\CPU.cpp" />
+    <ClCompile Include="src\system\hypervisor.cpp" />
+    <ClCompile Include="src\system\keyvault.cpp" />
+    <ClCompile Include="src\system\launch.cpp" />
+    <ClCompile Include="src\system\smc.cpp" />
+    <ClCompile Include="src\utils\utilities.cpp" />
+    <ClCompile Include="src\system\scenes\xbLiveConfig.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Stealth.xml">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

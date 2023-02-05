@@ -1,0 +1,415 @@
+[Wed Sep 21 20:07:28 2022] [Info] [Log] Log allocated
+[Wed Sep 21 20:07:28 2022] [Info] [Service] Class version 1.0
+[Wed Sep 21 20:07:28 2022] [Dev] Pushing 90E33818 to the integrity manager
+[Wed Sep 21 20:07:28 2022] [Dev] [Integrity] Registered 0x90E33818 for integrity with size 4!
+[Wed Sep 21 20:07:28 2022] [Dev] Pushing 90E33868 to the integrity manager
+[Wed Sep 21 20:07:28 2022] [Dev] [Integrity] Registered 0x90E33868 for integrity with size 4!
+[Wed Sep 21 20:07:28 2022] [Dev] Pushing 90E313A8 to the integrity manager
+[Wed Sep 21 20:07:28 2022] [Dev] [Integrity] Registered 0x90E313A8 for integrity with size 4!
+[Wed Sep 21 20:07:28 2022] [Dev] Pushing 90E31420 to the integrity manager
+[Wed Sep 21 20:07:28 2022] [Dev] [Integrity] Registered 0x90E31420 for integrity with size 4!
+[Wed Sep 21 20:07:28 2022] [Dev] Pushing 90E314A8 to the integrity manager
+[Wed Sep 21 20:07:28 2022] [Dev] [Integrity] Registered 0x90E314A8 for integrity with size 4!
+[Wed Sep 21 20:07:28 2022] [Dev] Pushing 90E31538 to the integrity manager
+[Wed Sep 21 20:07:28 2022] [Dev] [Integrity] Registered 0x90E31538 for integrity with size 4!
+[Wed Sep 21 20:07:28 2022] [Dev] Pushing 90E315B8 to the integrity manager
+[Wed Sep 21 20:07:28 2022] [Dev] [Integrity] Registered 0x90E315B8 for integrity with size 4!
+[Wed Sep 21 20:07:28 2022] [Dev] Pushing 90E31650 to the integrity manager
+[Wed Sep 21 20:07:28 2022] [Dev] [Integrity] Registered 0x90E31650 for integrity with size 4!
+[Wed Sep 21 20:07:28 2022] [Dev] Pushing 90E316D8 to the integrity manager
+[Wed Sep 21 20:07:28 2022] [Dev] [Integrity] Registered 0x90E316D8 for integrity with size 4!
+[Wed Sep 21 20:07:28 2022] [Dev] Pushing 90E31768 to the integrity manager
+[Wed Sep 21 20:07:28 2022] [Dev] [Integrity] Registered 0x90E31768 for integrity with size 4!
+[Wed Sep 21 20:07:28 2022] [Dev] Pushing 90E317F8 to the integrity manager
+[Wed Sep 21 20:07:28 2022] [Dev] [Integrity] Registered 0x90E317F8 for integrity with size 4!
+[Wed Sep 21 20:07:28 2022] [Dev] Pushing 90E31880 to the integrity manager
+[Wed Sep 21 20:07:28 2022] [Dev] [Integrity] Registered 0x90E31880 for integrity with size 4!
+[Wed Sep 21 20:07:28 2022] [Dev] Pushing 90E31910 to the integrity manager
+[Wed Sep 21 20:07:28 2022] [Dev] [Integrity] Registered 0x90E31910 for integrity with size 4!
+[Wed Sep 21 20:07:28 2022] [Dev] Pushing 90E31BC0 to the integrity manager
+[Wed Sep 21 20:07:28 2022] [Dev] [Integrity] Registered 0x90E31BC0 for integrity with size 4!
+[Wed Sep 21 20:07:28 2022] [Dev] Pushing 90E31C60 to the integrity manager
+[Wed Sep 21 20:07:28 2022] [Dev] [Integrity] Registered 0x90E31C60 for integrity with size 4!
+[Wed Sep 21 20:07:28 2022] [Dev] Pushing 90E31CD0 to the integrity manager
+[Wed Sep 21 20:07:28 2022] [Dev] [Integrity] Registered 0x90E31CD0 for integrity with size 4!
+[Wed Sep 21 20:07:28 2022] [Dev] Pushing 90E31D80 to the integrity manager
+[Wed Sep 21 20:07:28 2022] [Dev] [Integrity] Registered 0x90E31D80 for integrity with size 4!
+[Wed Sep 21 20:07:28 2022] [Dev] Pushing 90E31DF0 to the integrity manager
+[Wed Sep 21 20:07:28 2022] [Dev] [Integrity] Registered 0x90E31DF0 for integrity with size 4!
+[Wed Sep 21 20:07:28 2022] [Dev] Pushing 90E31E50 to the integrity manager
+[Wed Sep 21 20:07:28 2022] [Dev] [Integrity] Registered 0x90E31E50 for integrity with size 4!
+[Wed Sep 21 20:07:28 2022] [Dev] Pushing 90E31EB0 to the integrity manager
+[Wed Sep 21 20:07:28 2022] [Dev] [Integrity] Registered 0x90E31EB0 for integrity with size 4!
+[Wed Sep 21 20:07:28 2022] [Dev] Pushing 90E31EF0 to the integrity manager
+[Wed Sep 21 20:07:28 2022] [Dev] [Integrity] Registered 0x90E31EF0 for integrity with size 4!
+[Wed Sep 21 20:07:28 2022] [Dev] Pushing 90E31F30 to the integrity manager
+[Wed Sep 21 20:07:28 2022] [Dev] [Integrity] Registered 0x90E31F30 for integrity with size 4!
+[Wed Sep 21 20:07:28 2022] [Dev] Pushing 90E31FB0 to the integrity manager
+[Wed Sep 21 20:07:28 2022] [Dev] [Integrity] Registered 0x90E31FB0 for integrity with size 4!
+[Wed Sep 21 20:07:28 2022] [Dev] Pushing 90E32028 to the integrity manager
+[Wed Sep 21 20:07:28 2022] [Dev] [Integrity] Registered 0x90E32028 for integrity with size 4!
+[Wed Sep 21 20:07:28 2022] [Dev] Pushing 90E320B8 to the integrity manager
+[Wed Sep 21 20:07:28 2022] [Dev] [Integrity] Registered 0x90E320B8 for integrity with size 4!
+[Wed Sep 21 20:07:28 2022] [Dev] Pushing 90E32138 to the integrity manager
+[Wed Sep 21 20:07:28 2022] [Dev] [Integrity] Registered 0x90E32138 for integrity with size 4!
+[Wed Sep 21 20:07:28 2022] [Dev] Pushing 90E321C8 to the integrity manager
+[Wed Sep 21 20:07:28 2022] [Dev] [Integrity] Registered 0x90E321C8 for integrity with size 4!
+[Wed Sep 21 20:07:28 2022] [Dev] Pushing 90E32260 to the integrity manager
+[Wed Sep 21 20:07:28 2022] [Dev] [Integrity] Registered 0x90E32260 for integrity with size 4!
+[Wed Sep 21 20:07:28 2022] [Dev] Pushing 90E322F0 to the integrity manager
+[Wed Sep 21 20:07:28 2022] [Dev] [Integrity] Registered 0x90E322F0 for integrity with size 4!
+[Wed Sep 21 20:07:28 2022] [Dev] Pushing 90E32380 to the integrity manager
+[Wed Sep 21 20:07:28 2022] [Dev] [Integrity] Registered 0x90E32380 for integrity with size 4!
+[Wed Sep 21 20:07:28 2022] [Dev] Pushing 90E32408 to the integrity manager
+[Wed Sep 21 20:07:28 2022] [Dev] [Integrity] Registered 0x90E32408 for integrity with size 4!
+[Wed Sep 21 20:07:28 2022] [Dev] Pushing 90E32448 to the integrity manager
+[Wed Sep 21 20:07:28 2022] [Dev] [Integrity] Registered 0x90E32448 for integrity with size 4!
+[Wed Sep 21 20:07:28 2022] [Dev] Pushing 90E32F50 to the integrity manager
+[Wed Sep 21 20:07:28 2022] [Dev] [Integrity] Registered 0x90E32F50 for integrity with size 4!
+[Wed Sep 21 20:07:28 2022] [Dev] Pushing 90E32F98 to the integrity manager
+[Wed Sep 21 20:07:28 2022] [Dev] [Integrity] Registered 0x90E32F98 for integrity with size 4!
+[Wed Sep 21 20:07:28 2022] [Dev] Pushing 90E33010 to the integrity manager
+[Wed Sep 21 20:07:29 2022] [Dev] [Integrity] Registered 0x90E33010 for integrity with size 4!
+[Wed Sep 21 20:07:29 2022] [Dev] Pushing 90E33088 to the integrity manager
+[Wed Sep 21 20:07:29 2022] [Dev] [Integrity] Registered 0x90E33088 for integrity with size 4!
+[Wed Sep 21 20:07:29 2022] [Dev] Pushing 90E33108 to the integrity manager
+[Wed Sep 21 20:07:29 2022] [Dev] [Integrity] Registered 0x90E33108 for integrity with size 4!
+[Wed Sep 21 20:07:29 2022] [Dev] Pushing 90E33120 to the integrity manager
+[Wed Sep 21 20:07:29 2022] [Dev] [Integrity] Registered 0x90E33120 for integrity with size 4!
+[Wed Sep 21 20:07:29 2022] [Dev] Pushing 90E33138 to the integrity manager
+[Wed Sep 21 20:07:29 2022] [Dev] [Integrity] Registered 0x90E33138 for integrity with size 4!
+[Wed Sep 21 20:07:29 2022] [Dev] Pushing 90E33158 to the integrity manager
+[Wed Sep 21 20:07:29 2022] [Dev] [Integrity] Registered 0x90E33158 for integrity with size 4!
+[Wed Sep 21 20:07:29 2022] [Dev] Pushing 90E33178 to the integrity manager
+[Wed Sep 21 20:07:29 2022] [Dev] [Integrity] Registered 0x90E33178 for integrity with size 4!
+[Wed Sep 21 20:07:29 2022] [Dev] Pushing 90E33190 to the integrity manager
+[Wed Sep 21 20:07:29 2022] [Dev] [Integrity] Registered 0x90E33190 for integrity with size 4!
+[Wed Sep 21 20:07:29 2022] [Dev] Pushing 90E331A8 to the integrity manager
+[Wed Sep 21 20:07:29 2022] [Dev] [Integrity] Registered 0x90E331A8 for integrity with size 4!
+[Wed Sep 21 20:07:29 2022] [Dev] Pushing 90E331C0 to the integrity manager
+[Wed Sep 21 20:07:29 2022] [Dev] [Integrity] Registered 0x90E331C0 for integrity with size 4!
+[Wed Sep 21 20:07:29 2022] [Dev] Pushing 90E331D8 to the integrity manager
+[Wed Sep 21 20:07:29 2022] [Dev] [Integrity] Registered 0x90E331D8 for integrity with size 4!
+[Wed Sep 21 20:07:29 2022] [Dev] Pushing 90E331F0 to the integrity manager
+[Wed Sep 21 20:07:29 2022] [Dev] [Integrity] Registered 0x90E331F0 for integrity with size 4!
+[Wed Sep 21 20:07:29 2022] [Dev] Pushing 90E33208 to the integrity manager
+[Wed Sep 21 20:07:29 2022] [Dev] [Integrity] Registered 0x90E33208 for integrity with size 4!
+[Wed Sep 21 20:07:29 2022] [Dev] Pushing 90E33220 to the integrity manager
+[Wed Sep 21 20:07:29 2022] [Dev] [Integrity] Registered 0x90E33220 for integrity with size 4!
+[Wed Sep 21 20:07:29 2022] [Dev] Pushing 90E33238 to the integrity manager
+[Wed Sep 21 20:07:29 2022] [Dev] [Integrity] Registered 0x90E33238 for integrity with size 4!
+[Wed Sep 21 20:07:29 2022] [Dev] Pushing 90E33250 to the integrity manager
+[Wed Sep 21 20:07:29 2022] [Dev] [Integrity] Registered 0x90E33250 for integrity with size 4!
+[Wed Sep 21 20:07:29 2022] [Dev] Pushing 90E33268 to the integrity manager
+[Wed Sep 21 20:07:29 2022] [Dev] [Integrity] Registered 0x90E33268 for integrity with size 4!
+[Wed Sep 21 20:07:29 2022] [Dev] Pushing 90E332D0 to the integrity manager
+[Wed Sep 21 20:07:29 2022] [Dev] [Integrity] Registered 0x90E332D0 for integrity with size 4!
+[Wed Sep 21 20:07:29 2022] [Dev] Pushing 90E33368 to the integrity manager
+[Wed Sep 21 20:07:29 2022] [Dev] [Integrity] Registered 0x90E33368 for integrity with size 4!
+[Wed Sep 21 20:07:29 2022] [Dev] Pushing 90E333E8 to the integrity manager
+[Wed Sep 21 20:07:29 2022] [Dev] [Integrity] Registered 0x90E333E8 for integrity with size 4!
+[Wed Sep 21 20:07:29 2022] [Dev] Pushing 90E33478 to the integrity manager
+[Wed Sep 21 20:07:29 2022] [Dev] [Integrity] Registered 0x90E33478 for integrity with size 4!
+[Wed Sep 21 20:07:29 2022] [Dev] Pushing 90E33508 to the integrity manager
+[Wed Sep 21 20:07:29 2022] [Dev] [Integrity] Registered 0x90E33508 for integrity with size 4!
+[Wed Sep 21 20:07:29 2022] [Dev] Pushing 90E33588 to the integrity manager
+[Wed Sep 21 20:07:29 2022] [Dev] [Integrity] Registered 0x90E33588 for integrity with size 4!
+[Wed Sep 21 20:07:29 2022] [Dev] Pushing 90E33608 to the integrity manager
+[Wed Sep 21 20:07:29 2022] [Dev] [Integrity] Registered 0x90E33608 for integrity with size 4!
+[Wed Sep 21 20:07:29 2022] [Dev] Pushing 90E33688 to the integrity manager
+[Wed Sep 21 20:07:29 2022] [Dev] [Integrity] Registered 0x90E33688 for integrity with size 4!
+[Wed Sep 21 20:07:29 2022] [Dev] Pushing 90E33708 to the integrity manager
+[Wed Sep 21 20:07:29 2022] [Dev] [Integrity] Registered 0x90E33708 for integrity with size 4!
+[Wed Sep 21 20:07:29 2022] [Dev] Pushing 90E337C8 to the integrity manager
+[Wed Sep 21 20:07:29 2022] [Dev] [Integrity] Registered 0x90E337C8 for integrity with size 4!
+[Wed Sep 21 20:07:29 2022] [Info] Parsing launch path for boot xex from HDD:\launch.ini
+[Wed Sep 21 20:07:29 2022] [Info] Launch path acquired: dash.xex
+[Wed Sep 21 20:07:29 2022] [Info] Initializing #528bb4
+[Wed Sep 21 20:07:29 2022] [Info] Initializing #c6c763e3
+[Wed Sep 21 20:07:29 2022] [Info] Initializing #8e2a71b
+[Wed Sep 21 20:07:29 2022] [Dev] HvPokeDWORD on 617C
+[Wed Sep 21 20:07:29 2022] [Dev] HvPokeDWORD on 617C
+[Wed Sep 21 20:07:29 2022] [Info] Initializing #39829ea5
+[Wed Sep 21 20:07:29 2022] [Info] Initializing #fe65cb3es
+[Wed Sep 21 20:07:29 2022] [Info] Initializing #729faa21
+[Wed Sep 21 20:07:29 2022] [Dev] HvPokeBytes on 200016510
+[Wed Sep 21 20:07:29 2022] [Info] Initializing #ad23c26a
+[Wed Sep 21 20:07:29 2022] [Dev] HvPokeDWORD on 617C
+[Wed Sep 21 20:07:29 2022] [Dev] HvPokeDWORD on 617C
+[Wed Sep 21 20:07:29 2022] [Info] Initializing #c4999ec5
+[Wed Sep 21 20:07:29 2022] [Dev] HvPeekQWORD on 8000020000020600
+[Wed Sep 21 20:07:29 2022] [Dev] HvPeekQWORD on 8000020000020A00
+[Wed Sep 21 20:07:29 2022] [Dev] HvPeekQWORD on 8000020000020800
+[Wed Sep 21 20:07:29 2022] [Dev] HvPeekQWORD on 8000020000020C00
+[Wed Sep 21 20:07:29 2022] [Info] Initializing #5a67b09a
+[Wed Sep 21 20:07:29 2022] [Dev] Retail: 0x0 -> 0xD8, Devkit: 0xE0 -> 0x310
+[Wed Sep 21 20:07:29 2022] [Dev] Patching address 816DD688 with size 1
+[Wed Sep 21 20:07:29 2022] [Dev] Patching address 816DD6FC with size 1
+[Wed Sep 21 20:07:29 2022] [Dev] Patching address 816DD6F4 with size 1
+[Wed Sep 21 20:07:29 2022] [Dev] Patching address 816DD6E8 with size 1
+[Wed Sep 21 20:07:29 2022] [Dev] Patching address 816798EC with size 1
+[Wed Sep 21 20:07:29 2022] [Dev] Patching address 818F2130 with size 1
+[Wed Sep 21 20:07:29 2022] [Dev] Patching address 8167C47C with size 1
+[Wed Sep 21 20:07:29 2022] [Dev] Patching address 8192BD24 with size 1
+[Wed Sep 21 20:07:29 2022] [Dev] Patching address 8167F978 with size 1
+[Wed Sep 21 20:07:29 2022] [Dev] Patching address 81682544 with size 1
+[Wed Sep 21 20:07:29 2022] [Dev] Patching address 8167C4B4 with size 1
+[Wed Sep 21 20:07:29 2022] [Dev] Patching address 8192BD18 with size 1
+[Wed Sep 21 20:07:29 2022] [Dev] Patching address 816DCCC8 with size 1
+[Wed Sep 21 20:07:29 2022] [Dev] Patching address 8169FF78 with size 1
+[Wed Sep 21 20:07:29 2022] [Dev] Patching address 816710AC with size 1
+[Wed Sep 21 20:07:29 2022] [Dev] Patching address 8007CD04 with size 1
+[Wed Sep 21 20:07:29 2022] [Dev] Patching address 8007AB40 with size 1
+[Wed Sep 21 20:07:29 2022] [Dev] Patching address 816FEE9C with size 1
+[Wed Sep 21 20:07:29 2022] [Dev] Hooking module inside xam.xex, ordinal 408 from xboxkrnl.exe
+[Wed Sep 21 20:07:29 2022] [Dev] Hooking module inside xam.xex, ordinal 409 from xboxkrnl.exe
+[Wed Sep 21 20:07:29 2022] [Dev] SMC version: 3.1
+[Wed Sep 21 20:07:29 2022] [Info] Loading KV from kv.bin
+[Wed Sep 21 20:07:29 2022] [Dev] HvPeekQWORD on 2000163C0
+[Wed Sep 21 20:07:29 2022] [Dev] HvPeekBytes on 7601EE00D0
+[Wed Sep 21 20:07:29 2022] [Dev] HvPokeBytes on 7601EE0000
+[Wed Sep 21 20:07:29 2022] [Info] KV set!
+[Wed Sep 21 20:07:29 2022] [Dev] [XBDM] Command count: 63
+[Wed Sep 21 20:07:29 2022] [Dev] [XBDM] Found command! [0] altaddr 0x9100B5C0
+[Wed Sep 21 20:07:29 2022] [Dev] [XBDM] Found command! [1] break 0x9100FFC8
+[Wed Sep 21 20:07:29 2022] [Dev] [XBDM] Found command! [2] bye 0x9100B640
+[Wed Sep 21 20:07:29 2022] [Dev] [XBDM] Found command! [3] consolefeatures 0x9100B820
+[Wed Sep 21 20:07:29 2022] [Dev] [XBDM] Found command! [4] consoletype 0x9100B8A8
+[Wed Sep 21 20:07:29 2022] [Dev] [XBDM] Found command! [5] continue 0x9100F5B8
+[Wed Sep 21 20:07:29 2022] [Dev] [XBDM] Found command! [6] dbgname 0x9100B928
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [7] debugger 0x9100E788
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [8] delete 0x9100C668
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [9] dirlist 0x9100C538
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [10] dmversion 0x910102B0
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [11] drivefreespace 0x9100C320
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [12] drivelist 0x9100C1E0
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [13] drivemap 0x9100B9B8
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [14] dumpmode 0x9100E5A8
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [15] dvdeject 0x9100C610
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [16] getconsoleid 0x9100FF40
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [17] getcontext 0x9100EE70
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [18] getcpukey 0x9100F530
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [19] getexecstate 0x9100FE90
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [20] getfile 0x9100DB20
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [21] getfileattributes 0x9100CA98
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [22] getmem 0x9100D0D8
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [23] getmemex 0x9100CEB0
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [24] getpid 0x9100FC50
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [25] go 0x9100D4B0
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [26] help 0x9100BA80
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [27] hwinfo 0x9100E4D0
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [28] khoungdm 0x910102E8
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [29] isdebugger 0x9100E930
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [30] isstopped 0x9100F740
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [31] magicboot 0x9100B670
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [32] mkdir 0x9100C768
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [33] modsections 0x9100FB98
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [34] modules 0x9100D448
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [35] nostopon 0x9100F738
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [36] notify 0x9100E640
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [37] notifyat 0x9100E6A0
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [38] objlist 0x9100E560
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [39] rename 0x9100C848
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [40] resume 0x9100F8C0
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [41] screenshot 0x9100D5D0
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [42] sendfile 0x9100DE70
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [43] sendvfile 0x9100E3E0
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [44] setcolor 0x9100D910
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [45] setcontext 0x9100F048
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [46] setfileattributes 0x9100CB80
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [47] setmem 0x9100D198
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [48] setsystime 0x9100BAF0
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [49] shutdown 0x9100BC28
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [50] stop 0x9100D488
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [51] stopon 0x9100F730
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [52] spew 0x9100BC68
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [53] suspend 0x9100F840
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [54] systeminfo 0x9100ECB0
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [55] systime 0x9100BB98
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [56] threadex 0x9100F450
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [57] threadinfo 0x9100F9E8
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [58] threads 0x9100F290
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [59] xbeinfo 0x9100BD90
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [60] xexfield 0x9100FD60
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [61] walkmem 0x9100D8A0
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Found command! [62] whomadethis 0x91010310
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Hooking XBDM command getmemex -> 0x9100CEB0 to 0x90E36C38
+[Wed Sep 21 20:07:30 2022] [Dev] Pushing 9101AD14 to the integrity manager
+[Wed Sep 21 20:07:30 2022] [Dev] [Integrity] Registered 0x9101AD14 for integrity with size 4!
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Hooking XBDM command getmem -> 0x9100D0D8 to 0x90E36968
+[Wed Sep 21 20:07:30 2022] [Dev] Pushing 9101AD08 to the integrity manager
+[Wed Sep 21 20:07:30 2022] [Dev] [Integrity] Registered 0x9101AD08 for integrity with size 4!
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Hooking XBDM command setmem -> 0x9100D198 to 0x90E36680
+[Wed Sep 21 20:07:30 2022] [Dev] Pushing 9101AE34 to the integrity manager
+[Wed Sep 21 20:07:30 2022] [Dev] [Integrity] Registered 0x9101AE34 for integrity with size 4!
+[Wed Sep 21 20:07:30 2022] [Dev] [XBDM] Hooking XBDM command break -> 0x9100FFC8 to 0x90E364A8
+[Wed Sep 21 20:07:30 2022] [Dev] Pushing 9101AC0C to the integrity manager
+[Wed Sep 21 20:07:30 2022] [Dev] [Integrity] Registered 0x9101AC0C for integrity with size 4!
+[Wed Sep 21 20:07:30 2022] [Dev] Pushing 90E36C38 to the integrity manager
+[Wed Sep 21 20:07:30 2022] [Dev] [Integrity] Registered 0x90E36C38 for integrity with size 14!
+[Wed Sep 21 20:07:30 2022] [Dev] Pushing 90E36968 to the integrity manager
+[Wed Sep 21 20:07:30 2022] [Dev] [Integrity] Registered 0x90E36968 for integrity with size 14!
+[Wed Sep 21 20:07:30 2022] [Dev] Pushing 90E36680 to the integrity manager
+[Wed Sep 21 20:07:30 2022] [Dev] [Integrity] Registered 0x90E36680 for integrity with size 14!
+[Wed Sep 21 20:07:30 2022] [Dev] Pushing 90E364A8 to the integrity manager
+[Wed Sep 21 20:07:30 2022] [Dev] [Integrity] Registered 0x90E364A8 for integrity with size 14!
+[Wed Sep 21 20:07:30 2022] [Dev] Pushing 81741AD8 to the integrity manager
+[Wed Sep 21 20:07:30 2022] [Dev] [Integrity] Registered 0x81741AD8 for integrity with size 4!
+[Wed Sep 21 20:07:30 2022] [Dev] Pushing 81741CB8 to the integrity manager
+[Wed Sep 21 20:07:30 2022] [Dev] [Integrity] Registered 0x81741CB8 for integrity with size 4!
+[Wed Sep 21 20:07:30 2022] [Dev] Pushing 81741DB0 to the integrity manager
+[Wed Sep 21 20:07:30 2022] [Dev] [Integrity] Registered 0x81741DB0 for integrity with size 4!
+[Wed Sep 21 20:07:30 2022] [Dev] Pushing 80114D78 to the integrity manager
+[Wed Sep 21 20:07:30 2022] [Dev] [Integrity] Registered 0x80114D78 for integrity with size 4!
+[Wed Sep 21 20:07:30 2022] [Dev] Pushing 800682A0 to the integrity manager
+[Wed Sep 21 20:07:30 2022] [Dev] [Integrity] Registered 0x800682A0 for integrity with size 4!
+[Wed Sep 21 20:07:30 2022] [Dev] Pushing 90E4B908 to the integrity manager
+[Wed Sep 21 20:07:30 2022] [Dev] [Integrity] Registered 0x90E4B908 for integrity with size 4!
+[Wed Sep 21 20:07:30 2022] [Dev] Pushing 90E4B970 to the integrity manager
+[Wed Sep 21 20:07:30 2022] [Dev] [Integrity] Registered 0x90E4B970 for integrity with size 4!
+[Wed Sep 21 20:07:30 2022] [Dev] Pushing 80067F48 to the integrity manager
+[Wed Sep 21 20:07:30 2022] [Dev] [Integrity] Registered 0x80067F48 for integrity with size 4!
+[Wed Sep 21 20:07:30 2022] [Dev] Pushing 8007D858 to the integrity manager
+[Wed Sep 21 20:07:30 2022] [Dev] [Integrity] Registered 0x8007D858 for integrity with size 34!
+[Wed Sep 21 20:07:30 2022] [Dev] Pushing 800796F8 to the integrity manager
+[Wed Sep 21 20:07:30 2022] [Dev] [Integrity] Registered 0x800796F8 for integrity with size 10!
+[Wed Sep 21 20:07:30 2022] [Dev] Pushing 80078F40 to the integrity manager
+[Wed Sep 21 20:07:30 2022] [Dev] [Integrity] Registered 0x80078F40 for integrity with size 10!
+[Wed Sep 21 20:07:30 2022] [Dev] Pushing 80079768 to the integrity manager
+[Wed Sep 21 20:07:30 2022] [Dev] [Integrity] Registered 0x80079768 for integrity with size 10!
+[Wed Sep 21 20:07:30 2022] [Dev] Pushing 8007BD78 to the integrity manager
+[Wed Sep 21 20:07:30 2022] [Dev] [Integrity] Registered 0x8007BD78 for integrity with size 10!
+[Wed Sep 21 20:07:30 2022] [Dev] Pushing 8007D528 to the integrity manager
+[Wed Sep 21 20:07:30 2022] [Dev] [Integrity] Registered 0x8007D528 for integrity with size 10!
+[Wed Sep 21 20:07:30 2022] [Dev] Pushing 8007AF68 to the integrity manager
+[Wed Sep 21 20:07:30 2022] [Dev] [Integrity] Registered 0x8007AF68 for integrity with size 10!
+[Wed Sep 21 20:07:30 2022] [Dev] [Infection Removal] patch1 shellcode allocated @ 8C050000
+[Wed Sep 21 20:07:30 2022] [Dev] Hooking module inside xam.xex, ordinal 922 from xboxkrnl.exe
+[Wed Sep 21 20:07:31 2022] [Dev] [Infection Removal] Hooked patch1
+[Wed Sep 21 20:07:31 2022] [Dev] [Infection Removal] patch2 shellcode allocated @ 8C060000
+[Wed Sep 21 20:07:31 2022] [Dev] Hooking module inside xam.xex, ordinal 919 from xboxkrnl.exe
+[Wed Sep 21 20:07:31 2022] [Dev] [Infection Removal] Hooked patch2
+[Wed Sep 21 20:07:31 2022] [Dev] Hooked: Address=0x8C050000 Stub=0x90E70198 
+[Wed Sep 21 20:07:31 2022] [Dev] Pushing 8C050000 to the integrity manager
+[Wed Sep 21 20:07:31 2022] [Dev] [Integrity] Registered 0x8C050000 for integrity with size 2B0!
+[Wed Sep 21 20:07:31 2022] [Dev] Pushing 8C060000 to the integrity manager
+[Wed Sep 21 20:07:31 2022] [Dev] [Integrity] Registered 0x8C060000 for integrity with size 2BC!
+[Wed Sep 21 20:07:31 2022] [Dev] Pushing 81A734F4 to the integrity manager
+[Wed Sep 21 20:07:31 2022] [Dev] [Integrity] Registered 0x81A734F4 for integrity with size 10!
+[Wed Sep 21 20:07:31 2022] [Dev] Pushing 81A73504 to the integrity manager
+[Wed Sep 21 20:07:31 2022] [Dev] [Integrity] Registered 0x81A73504 for integrity with size 10!
+[Wed Sep 21 20:07:31 2022] [Dev] Pushing 817417B0 to the integrity manager
+[Wed Sep 21 20:07:31 2022] [Dev] [Integrity] Registered 0x817417B0 for integrity with size 10!
+[Wed Sep 21 20:07:31 2022] [Dev] Hooked: Address=0x817417B0 Stub=0x90E701B8 - Added to integrity manager!
+[Wed Sep 21 20:07:31 2022] [Dev] Hooked: Address=0x816AAC08 Stub=0x90E701D8 
+[Wed Sep 21 20:07:31 2022] [Dev] Pushing 81741BF8 to the integrity manager
+[Wed Sep 21 20:07:31 2022] [Dev] [Integrity] Registered 0x81741BF8 for integrity with size 10!
+[Wed Sep 21 20:07:31 2022] [Dev] Hooked: Address=0x81741BF8 Stub=0x90E701F8 - Added to integrity manager!
+[Wed Sep 21 20:07:31 2022] [Dev] Hooked: Address=0x816C5508 Stub=0x90E70218 
+[Wed Sep 21 20:07:31 2022] [Dev] Hooked: Address=0x816CB168 Stub=0x90E70238 
+[Wed Sep 21 20:07:31 2022] [Dev] Hooked: Address=0x8007B498 Stub=0x90E70258 
+[Wed Sep 21 20:07:31 2022] [Dev] Hooking module inside xam.xex, ordinal 607 from xboxkrnl.exe
+[Wed Sep 21 20:07:31 2022] [Dev] Hooking module inside xam.xex, ordinal 416 from xboxkrnl.exe
+[Wed Sep 21 20:07:31 2022] [Dev] Hooking module inside xam.xex, ordinal 404 from xboxkrnl.exe
+[Wed Sep 21 20:07:31 2022] [Dev] Hooking module inside xam.xex, ordinal 407 from xboxkrnl.exe
+[Wed Sep 21 20:07:31 2022] [Dev] Hooking module inside xam.xex, ordinal 299 from xboxkrnl.exe
+[Wed Sep 21 20:07:31 2022] [Dev] Pushing 80109FF8 to the integrity manager
+[Wed Sep 21 20:07:31 2022] [Dev] [Integrity] Registered 0x80109FF8 for integrity with size 10!
+[Wed Sep 21 20:07:31 2022] [Info] Initialized successfully!
+[Wed Sep 21 20:07:31 2022] [Info] Boot XEX: dash.xex
+[Wed Sep 21 20:07:34 2022] [Dev] Running PacketConnect...
+[Wed Sep 21 20:07:34 2022] [Info] Connect 3
+[Wed Sep 21 20:07:34 2022] [Info] Recieved 1 
+
+[Wed Sep 21 20:07:34 2022] [Info] Recieved 2 
+
+[Wed Sep 21 20:07:34 2022] [Info] Recieved 3 
+
+[Wed Sep 21 20:07:34 2022] [Info] RC4: 8B90E1000090E100002D 
+
+[Wed Sep 21 20:07:34 2022] [Info] Recieved 4 
+
+[Wed Sep 21 20:07:35 2022] [Dev] Running PacketWelcome...
+[Wed Sep 21 20:07:35 2022] [Dev] KV Status: 80151912
+[Wed Sep 21 20:07:37 2022] [Dev] Hooked: Address=0x92200360 Stub=0x90E702D8 
+[Wed Sep 21 20:07:37 2022] [Dev] Hooked: Address=0x92329148 Stub=0x90E702F8 
+[Wed Sep 21 20:07:37 2022] [Info] FFFE07D1:5DAA9314
+[Wed Sep 21 20:07:37 2022] [Info] Connect 3
+[Wed Sep 21 20:07:37 2022] [Info] Recieved 1 
+
+[Wed Sep 21 20:07:37 2022] [Info] Recieved 2 
+
+[Wed Sep 21 20:07:37 2022] [Info] Recieved 3 
+
+[Wed Sep 21 20:07:37 2022] [Info] RC4: 9790E1000090E10000E8 
+
+[Wed Sep 21 20:07:37 2022] [Info] Recieved 4 
+
+[Wed Sep 21 20:07:37 2022] [Info] Notify: xbLive - Freemode active! Enjoy the free time :)
+[Wed Sep 21 20:07:37 2022] [Info] Running PacketGetTitlePatches...
+[Wed Sep 21 20:07:39 2022] [Info] Connect 3
+[Wed Sep 21 20:07:39 2022] [Info] Recieved 1 
+
+[Wed Sep 21 20:07:39 2022] [Info] Recieved 2 
+
+[Wed Sep 21 20:07:39 2022] [Info] Recieved 3 
+
+[Wed Sep 21 20:07:39 2022] [Info] RC4: F90E1000090E1000026 
+
+[Wed Sep 21 20:07:39 2022] [Info] Recieved 4 
+
+[Wed Sep 21 20:07:39 2022] [Dev] Running PacketGetTime...
+[Wed Sep 21 20:07:40 2022] [Info] Connect 3
+[Wed Sep 21 20:07:40 2022] [Info] Recieved 1 
+
+[Wed Sep 21 20:07:40 2022] [Info] Recieved 2 
+
+[Wed Sep 21 20:07:40 2022] [Info] Recieved 3 
+
+[Wed Sep 21 20:07:40 2022] [Info] RC4: 5C90E1000090E1000025 
+
+[Wed Sep 21 20:07:41 2022] [Info] Recieved 4 
+
+[Wed Sep 21 20:07:41 2022] [Info] Current Color3: FF2DD17A
+
+[Wed Sep 21 20:07:41 2022] [Info] Current Color4: FFC427D0
+
+[Wed Sep 21 20:07:41 2022] [Dev] Running PacketGetPlugins...
+[Wed Sep 21 20:07:42 2022] [Info] Connect 3
+[Wed Sep 21 20:07:42 2022] [Info] Recieved 1 
+
+[Wed Sep 21 20:07:42 2022] [Info] Recieved 2 
+
+[Wed Sep 21 20:07:42 2022] [Info] Recieved 3 
+
+[Wed Sep 21 20:07:42 2022] [Info] RC4: 5090E1000090E100007 
+
+[Wed Sep 21 20:07:42 2022] [Info] Recieved 4 
+
+[Wed Sep 21 20:07:42 2022] [Info] Plugins detected...
+[Wed Sep 21 20:07:50 2022] [Dev] Running PacketChallenge...
+[Wed Sep 21 20:07:53 2022] [Info] Connect 3
+[Wed Sep 21 20:07:53 2022] [Info] Recieved 1 
+
+[Wed Sep 21 20:07:53 2022] [Info] Recieved 2 
+
+[Wed Sep 21 20:07:53 2022] [Info] Recieved 3 
+
+[Wed Sep 21 20:07:53 2022] [Info] RC4: 990E1000090E100009F 
+
+[Wed Sep 21 20:07:53 2022] [Info] Recieved 4 
+
+[Wed Sep 21 20:07:53 2022] [Info] Notify: xbLive - Connected to Live!
+[Wed Sep 21 20:08:04 2022] [Dev] Running PacketXOSC...
+[Wed Sep 21 20:08:07 2022] [Info] Connect 3
+[Wed Sep 21 20:08:07 2022] [Info] Recieved 1 
+
+[Wed Sep 21 20:08:07 2022] [Info] Recieved 2 
+
+[Wed Sep 21 20:08:07 2022] [Info] Recieved 3 
+
+[Wed Sep 21 20:08:08 2022] [Info] RC4: B390E1000090E10000A8 
+
+[Wed Sep 21 20:08:08 2022] [Info] Recieved 4 
+
+[Wed Sep 21 20:08:08 2022] [Dev] XOSC success
